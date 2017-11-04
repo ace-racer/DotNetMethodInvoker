@@ -45,7 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Implementations\BaseOperationsContainer.cs" />
+    <Compile Include="Implementations\DotNetMethodsInvoker.cs" />
     <Compile Include="Implementations\JsonFileParser.cs" />
+    <Compile Include="Implementations\ConsoleLogger.cs" />
+    <Compile Include="Interfaces\IDotNetMethodsInvoker.cs" />
+    <Compile Include="Interfaces\ILogger.cs" />
     <Compile Include="Interfaces\IMethodDetailsObtainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

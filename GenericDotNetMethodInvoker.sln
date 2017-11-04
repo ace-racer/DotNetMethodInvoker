@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetMethodInvoker.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetMethodInvoker.BusinessLogics", "GenericDotNetMethodInvoker.BusinessLogics\GenericDotNetMethodInvoker.BusinessLogics.csproj", "{448330AB-FD48-474F-8083-F9D859D1ED00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetMethodInvoker.Models", "GenericDotNetMethodInvoker.Models\GenericDotNetMethodInvoker.Models.csproj", "{FF1E228E-6C12-4B95-9A4C-097340257146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDotNetMethodInvoker.Tests", "GenericDotNetMethodInvoker.Tests\GenericDotNetMethodInvoker.Tests.csproj", "{31985C6E-62E3-41BE-8FC5-CD7F6E9C58DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{448330AB-FD48-474F-8083-F9D859D1ED00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{448330AB-FD48-474F-8083-F9D859D1ED00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{448330AB-FD48-474F-8083-F9D859D1ED00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1E228E-6C12-4B95-9A4C-097340257146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1E228E-6C12-4B95-9A4C-097340257146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1E228E-6C12-4B95-9A4C-097340257146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1E228E-6C12-4B95-9A4C-097340257146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31985C6E-62E3-41BE-8FC5-CD7F6E9C58DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31985C6E-62E3-41BE-8FC5-CD7F6E9C58DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31985C6E-62E3-41BE-8FC5-CD7F6E9C58DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31985C6E-62E3-41BE-8FC5-CD7F6E9C58DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

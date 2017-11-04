@@ -16,7 +16,7 @@
         /// <value>
         /// The assembly.
         /// </value>
-        public string Assembly { get; set; }
+        public string AssemblyName { get; set; }
 
         /// <summary>
         /// Gets or sets the namespace.
@@ -32,7 +32,7 @@
         /// <value>
         /// The name of the class.
         /// </value>
-        public string ClassName { get; set; }
+        public string TypeName { get; set; }
 
         /// <summary>
         /// Gets or sets the method.

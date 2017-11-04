@@ -49,6 +49,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GenericDotNetMethodInvoker.BusinessLogics\GenericDotNetMethodInvoker.BusinessLogics.csproj">
+      <Project>{448330ab-fd48-474f-8083-f9d859d1ed00}</Project>
+      <Name>GenericDotNetMethodInvoker.BusinessLogics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GenericDotNetMethodInvoker.Models\GenericDotNetMethodInvoker.Models.csproj">
+      <Project>{ff1e228e-6c12-4b95-9a4c-097340257146}</Project>
+      <Name>GenericDotNetMethodInvoker.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
