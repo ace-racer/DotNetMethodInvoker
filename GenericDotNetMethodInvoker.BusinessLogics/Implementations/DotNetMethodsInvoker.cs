@@ -41,7 +41,7 @@ namespace GenericDotNetMethodInvoker.BusinessLogics.Implementations
                                 qualifiedTypeName = detailsOfMethod.Namespace + "." + detailsOfMethod.TypeName;
                             }
 
-                            var instance = Activator.CreateInstance(detailsOfMethod.AssemblyName, qualifiedTypeName);
+                            var instance = Activator.CreateInstance(detailsOfMethod.AssemblyName, qualifiedTypeName, new object[] { null });
                             if (instance != null)
                             {
 
@@ -49,7 +49,7 @@ namespace GenericDotNetMethodInvoker.BusinessLogics.Implementations
                         }
                         catch (Exception ex)
                         {
-                            Logger.Log(ex.Message);
+                            Logger.Log(ex.Message, true);
                         }
                     }
                 }

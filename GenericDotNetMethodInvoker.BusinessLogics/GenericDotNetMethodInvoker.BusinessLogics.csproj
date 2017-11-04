@@ -44,7 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Implementations\BaseOperationsContainer.cs" />
     <Compile Include="Implementations\DotNetMethodsInvoker.cs" />
     <Compile Include="Implementations\JsonFileParser.cs" />

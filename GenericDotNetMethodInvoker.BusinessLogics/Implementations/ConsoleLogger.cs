@@ -14,6 +14,15 @@ namespace GenericDotNetMethodInvoker.BusinessLogics.Implementations
         {
             if(!string.IsNullOrWhiteSpace(value))
             {
+                if (isException)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                }
+                else
+                {
+                    Console.ResetColor();
+                }
+
                 Console.WriteLine(value);
             }
         }

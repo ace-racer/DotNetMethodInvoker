@@ -36,7 +36,8 @@ namespace GenericDotNetMethodInvoker.BusinessLogics.Implementations
                     // AssemblyName = "GenericDotNetMethodInvoker.BusinessLogics",
                     AssemblyName = null,
                     TypeName = "DotNetMethodsInvoker",
-                    Namespace = "Implementations",
+                    // Namespace = "Implementations",
+                    Namespace = "GenericDotNetMethodInvoker.BusinessLogics.Implementations",
                     Method = "InvokeMethods"
                 }
             };
